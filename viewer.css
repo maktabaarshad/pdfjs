@@ -1724,3 +1724,42 @@ dialog :link {
 #secondaryPrint {
   display: none !important;
 }
+
+/* ==============================
+   CLEAN TOOLBAR (FINAL & WORKING)
+   ============================== */
+
+/* Hide left sidebar toggle */
+#sidebarToggleButton,
+#sidebarContainer {
+  display: none !important;
+}
+
+/* Hide Find in Document */
+#viewFindButton,
+#findbar {
+  display: none !important;
+}
+
+/* Hide Annotation / Editing tools */
+#editorHighlightButton,
+#editorFreeTextButton,
+#editorInkButton,
+#editorStampButton,
+#editorSignatureButton {
+  display: none !important;
+}
+
+/* Hide Save & Print buttons */
+#downloadButton,
+#printButton {
+  display: none !important;
+}
+
+/* Also hide in secondary menu */
+#secondaryDownload,
+#secondaryPrint {
+  display: none !important;
+}
+
+
