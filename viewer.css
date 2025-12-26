@@ -1688,34 +1688,39 @@ dialog :link {
   }
 }
 
-
 /* ==============================
-   CLEAN TOOLBAR (CUSTOM)
+   CLEAN TOOLBAR (FINAL & WORKING)
    ============================== */
 
-/* Hide left sidebar */
-#sidebarToggle,
+/* 🔴 Left sidebar completely OFF */
+#sidebarToggleButton,
 #sidebarContainer {
   display: none !important;
 }
 
-/* Hide find in document */
-#viewFind,
+/* 🔴 Find in document OFF */
+#viewFindButton,
 #findbar {
   display: none !important;
 }
 
-/* Hide annotation tools */
-#editorHighlight,
-#editorFreeText,
-#editorInk,
-#editorStamp {
+/* 🔴 Annotation / Editing tools OFF */
+#editorHighlightButton,
+#editorFreeTextButton,
+#editorInkButton,
+#editorStampButton,
+#editorSignatureButton {
   display: none !important;
 }
 
-/* Hide save & print */
-#download,
-#print {
+/* 🔴 Save & Print OFF (main toolbar) */
+#downloadButton,
+#printButton {
   display: none !important;
 }
 
+/* 🔴 Save & Print OFF (secondary toolbar / menu) */
+#secondaryDownload,
+#secondaryPrint {
+  display: none !important;
+}
